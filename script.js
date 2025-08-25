@@ -91,7 +91,9 @@ const animateCounters = () => {
 
 // GSAP Animations
 window.addEventListener('DOMContentLoaded', () => {
-  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const params = new URLSearchParams(window.location.search);
+  const overrideMotion = params.get('animations') === 'on';
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches && !overrideMotion;
   if (!window.gsap || reduce) {
     animateCounters();
     return;
@@ -184,6 +186,22 @@ window.addEventListener('DOMContentLoaded', () => {
       const cards = qsa('.glassy-card', panel);
       gsap.from(cards, { opacity: 0, y: 16, duration: 0.5, stagger: 0.08, ease: 'power2.out' });
     });
+  });
+
+  // Initial animation when products section enters viewport
+  ScrollTrigger.batch('#products .glassy-card', {
+    interval: 0.1,
+    batchMax: 6,
+    onEnter: (batch) => gsap.from(batch, { opacity: 0, y: 18, duration: 0.6, stagger: 0.06, ease: 'power2.out' }),
+    start: 'top 80%',
+  });
+  gsap.from('#productTabs .nav-link', {
+    opacity: 0,
+    y: 10,
+    duration: 0.5,
+    stagger: 0.05,
+    ease: 'power2.out',
+    scrollTrigger: { trigger: '#products', start: 'top 85%' },
   });
 });
 
