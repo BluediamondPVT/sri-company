@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="Commodity sourcing icon">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#C9A227"/>
+      <stop offset="1" stop-color="#7A001A"/>
+    </linearGradient>
+  </defs>
+  <rect rx="16" ry="16" width="320" height="200" fill="rgba(201,162,39,0.08)"/>
+  <g stroke="url(#g)" stroke-width="3" fill="none">
+    <circle cx="100" cy="100" r="44"/>
+    <path d="M130 130 L200 170 L260 120"/>
+    <path d="M200 170 L200 60"/>
+  </g>
+</svg>

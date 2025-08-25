@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="Regulatory compliance icon">
+  <defs>
+    <linearGradient id="g3" x1="0" x2="1">
+      <stop offset="0" stop-color="#C9A227"/>
+      <stop offset="1" stop-color="#7A001A"/>
+    </linearGradient>
+  </defs>
+  <rect rx="16" ry="16" width="320" height="200" fill="rgba(201,162,39,0.08)"/>
+  <g fill="none" stroke="url(#g3)" stroke-width="3" stroke-linecap="round">
+    <rect x="70" y="40" width="180" height="120" rx="12"/>
+    <path d="M95 70 H225"/>
+    <path d="M95 90 H225"/>
+    <path d="M95 110 H165"/>
+    <path d="M185 110 l12 12 l28 -28"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="Packaging icon">
+  <defs>
+    <linearGradient id="g5" x1="0" x2="1">
+      <stop offset="0" stop-color="#C9A227"/>
+      <stop offset="1" stop-color="#7A001A"/>
+    </linearGradient>
+  </defs>
+  <rect rx="16" ry="16" width="320" height="200" fill="rgba(201,162,39,0.08)"/>
+  <g fill="none" stroke="url(#g5)" stroke-width="3" stroke-linecap="round">
+    <path d="M80 80 L160 50 L240 80 L160 110 Z"/>
+    <path d="M80 80 V140 L160 170 V110"/>
+    <path d="M240 80 V140 L160 170"/>
+  </g>
+</svg>

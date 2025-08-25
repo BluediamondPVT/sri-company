@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="Minerals and metals illustration">
+  <defs>
+    <linearGradient id="g8" x1="0" x2="1">
+      <stop offset="0" stop-color="#8B949E"/>
+      <stop offset="1" stop-color="#C9A227"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="200" rx="16" ry="16" fill="rgba(15,17,20,0.06)"/>
+  <g fill="none" stroke="url(#g8)" stroke-width="3">
+    <path d="M90 140 L140 60 L200 60 L230 140 L160 170 Z"/>
+    <path d="M140 60 L160 90 L200 60"/>
+  </g>
+</svg>

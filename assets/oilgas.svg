@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="Oil and gas illustration">
+  <defs>
+    <linearGradient id="g7" x1="0" x2="1">
+      <stop offset="0" stop-color="#7A001A"/>
+      <stop offset="1" stop-color="#C9A227"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="200" rx="16" ry="16" fill="rgba(201,162,39,0.08)"/>
+  <g fill="url(#g7)">
+    <path d="M160 60 C140 90 150 110 160 130 C170 110 180 90 160 60 Z"/>
+  </g>
+  <g stroke="url(#g7)" stroke-width="3" fill="none">
+    <line x1="80" y1="160" x2="240" y2="160"/>
+  </g>
+</svg>

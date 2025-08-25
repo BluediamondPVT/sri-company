@@ -71,6 +71,7 @@ body {
   color: white;
   padding-top: 5rem;
 }
+.hero-visual img { filter: drop-shadow(0 20px 40px rgba(0,0,0,.35)); }
 .hero .hero-logo { width: 64px; height: 64px; object-fit: contain; }
 .hero .glassy-card {
   background: rgba(255, 255, 255, 0.06);
@@ -96,6 +97,7 @@ body {
 
 /* Utilities */
 .section-padding { padding: 5rem 0; }
+.section-padding h2 { letter-spacing: 0.02em; }
 .border-top-gold { border-top: 3px solid var(--color-gold); border-radius: var(--radius-md); }
 .gold-divider { display: inline-block; height: 3px; width: 64px; background: var(--color-gold); margin-bottom: .75rem; }
 .glassy-card {
@@ -104,6 +106,7 @@ body {
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
 }
+.glassy-card img { width: 100%; height: auto; }
 .service-card:hover, .feature-mini:hover, .metric-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
 .service-card, .feature-mini, .metric-card { transition: var(--transition); }
 .chip {
@@ -112,6 +115,18 @@ body {
 }
 .grid-2 { columns: 1; }
 @media (min-width: 768px) { .grid-2 { columns: 2; } }
+
+/* Product tabs */
+.nav-pills .nav-link {
+  color: var(--color-charcoal);
+  background: #f8fafc;
+  border: 1px solid var(--color-gray-200);
+}
+.nav-pills .nav-link.active {
+  color: #fff;
+  background: linear-gradient(45deg, var(--color-royal), var(--color-royal-alt));
+  border-color: transparent;
+}
 
 /* Buttons */
 .btn-primary {

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="Integrated logistics icon">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0" stop-color="#7A001A"/>
+      <stop offset="1" stop-color="#C9A227"/>
+    </linearGradient>
+  </defs>
+  <rect rx="16" ry="16" width="320" height="200" fill="rgba(15,17,20,0.06)"/>
+  <g fill="none" stroke="url(#g2)" stroke-width="3" stroke-linecap="round">
+    <rect x="40" y="80" width="140" height="60" rx="10"/>
+    <rect x="180" y="100" width="70" height="40" rx="6"/>
+    <circle cx="100" cy="150" r="10"/>
+    <circle cx="220" cy="150" r="10"/>
+    <path d="M180 120 H160"/>
+  </g>
+</svg>

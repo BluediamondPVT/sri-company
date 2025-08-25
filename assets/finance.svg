@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="Financial facilitation icon">
+  <defs>
+    <linearGradient id="g4" x1="0" x2="1">
+      <stop offset="0" stop-color="#7A001A"/>
+      <stop offset="1" stop-color="#C9A227"/>
+    </linearGradient>
+  </defs>
+  <rect rx="16" ry="16" width="320" height="200" fill="rgba(15,17,20,0.06)"/>
+  <g fill="none" stroke="url(#g4)" stroke-width="3" stroke-linecap="round">
+    <rect x="60" y="55" width="200" height="90" rx="10"/>
+    <circle cx="110" cy="100" r="18"/>
+    <path d="M110 80 v40 M95 92 h30 M95 108 h30"/>
+    <path d="M170 85 h60 M170 100 h60 M170 115 h60"/>
+  </g>
+</svg>

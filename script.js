@@ -118,6 +118,18 @@ window.addEventListener('DOMContentLoaded', () => {
     ease: 'none',
     scrollTrigger: { trigger: hero, start: 'top top', end: 'bottom top', scrub: true },
   });
+  const heroVisual = qs('.hero-visual img');
+  if (heroVisual) {
+    gsap.fromTo(
+      heroVisual,
+      { y: 10, opacity: 0 },
+      { y: 0, opacity: 1, duration: 1, ease: 'power2.out', delay: 0.15 }
+    );
+    gsap.to(heroVisual, {
+      y: -30,
+      scrollTrigger: { trigger: hero, start: 'top bottom', end: 'bottom top', scrub: true },
+    });
+  }
 
   // Entrance animations per section
   qsa('section').forEach((section) => {

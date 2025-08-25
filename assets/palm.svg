@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="Palm oil division illustration">
+  <defs>
+    <linearGradient id="g6" x1="0" x2="1">
+      <stop offset="0" stop-color="#1d4d2a"/>
+      <stop offset="1" stop-color="#C9A227"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="200" rx="16" ry="16" fill="rgba(15,17,20,0.06)"/>
+  <g stroke="url(#g6)" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M160 150 C150 120 130 100 110 90 C130 88 148 100 160 120"/>
+    <path d="M160 150 C170 120 190 100 210 90 C190 88 172 100 160 120"/>
+    <path d="M160 150 L160 180"/>
+  </g>
+</svg>
