@@ -151,5 +151,39 @@ window.addEventListener('DOMContentLoaded', () => {
     once: true,
     onEnter: animateCounters,
   });
+
+  // Intro images layered motion
+  const introMap = qs('.intro-img-map');
+  const introIcons = qs('.intro-img-icons');
+  if (introMap && introIcons) {
+    gsap.from([introMap, introIcons], {
+      opacity: 0,
+      y: 20,
+      duration: 0.8,
+      stagger: 0.1,
+      ease: 'power2.out',
+      scrollTrigger: { trigger: '#intro', start: 'top 80%' },
+    });
+    gsap.to(introMap, {
+      y: -25,
+      scrollTrigger: { trigger: '#intro', start: 'top bottom', end: 'bottom top', scrub: true },
+    });
+    gsap.to(introIcons, {
+      y: -40,
+      scrollTrigger: { trigger: '#intro', start: 'top bottom', end: 'bottom top', scrub: true },
+    });
+  }
+
+  // Products: animate cards on tab show
+  const productTabs = qsa('#productTabs button[data-bs-toggle="pill"]');
+  productTabs.forEach((btn) => {
+    btn.addEventListener('shown.bs.tab', (ev) => {
+      const targetSel = ev.target.getAttribute('data-bs-target');
+      const panel = qs(targetSel);
+      if (!panel) return;
+      const cards = qsa('.glassy-card', panel);
+      gsap.from(cards, { opacity: 0, y: 16, duration: 0.5, stagger: 0.08, ease: 'power2.out' });
+    });
+  });
 });
 

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="220" viewBox="0 0 320 220" role="img" aria-label="Intro icons collage">
+  <defs>
+    <linearGradient id="gii" x1="0" x2="1">
+      <stop offset="0" stop-color="#7A001A"/>
+      <stop offset="1" stop-color="#C9A227"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="220" rx="20" ry="20" fill="rgba(15,17,20,0.06)"/>
+  <g fill="none" stroke="url(#gii)" stroke-width="3" stroke-linecap="round">
+    <circle cx="70" cy="90" r="26"/>
+    <path d="M54 90 l12 12 l20 -22"/>
+    <rect x="140" y="70" width="60" height="40" rx="8"/>
+    <path d="M210 80 h56 M210 96 h56"/>
+    <rect x="70" y="140" width="196" height="30" rx="15"/>
+  </g>
+</svg>

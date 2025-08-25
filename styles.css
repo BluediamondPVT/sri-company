@@ -34,6 +34,13 @@ body {
 .text-gray-200 { color: #f3f4f6; }
 .text-gold { color: var(--color-gold) !important; }
 .bg-gray-200 { background: var(--color-gray-200); }
+.intro-img { position: absolute; pointer-events: none; max-width: 70%; }
+.intro-img-map { right: -20px; top: -10px; opacity: .9; filter: drop-shadow(0 14px 30px rgba(0,0,0,.15)); }
+.intro-img-icons { left: -10px; top: 90px; opacity: .8; max-width: 58%; }
+@media (max-width: 991.98px) {
+  .intro-img { position: relative; display: block; max-width: 80%; margin: 0 auto; }
+  .intro-img-map, .intro-img-icons { position: relative; left: auto; right: auto; top: auto; }
+}
 
 /* Navbar */
 .navbar {
